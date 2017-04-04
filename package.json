@@ -1,0 +1,25 @@
+{
+  "name": "grunt-extract-sketch-svgs",
+  "version": "1.0.0",
+  "description": "Extracts specified artboards to SVGs",
+  "main": "index.js",
+  "repository": "https://github.com/alampros/grunt-extract-sketch-svgs.git",
+  "author": "Aaron Lampros <alampros@dealertire.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "tasks/extract-from-sketch.js",
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-contrib-clean": "^1.0.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "sketch",
+    "icons"
+  ],
+  "files": [
+    "tasks"
+  ]
+}
